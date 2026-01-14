@@ -14,7 +14,7 @@
   "esmodules": [
     "scripts/auto-attack.js"
   ],
-  "url": "https://example.com/smooth-combat",
-  "manifest": "https://example.com/smooth-combat/manifest.json",
-  "download": "https://example.com/smooth-combat/smooth-combat.zip"
+  "url": "https://github.com/karterellis5-oss/DND-5E-Smooth-Combat",
+  "manifest": "https://github.com/karterellis5-oss/DND-5E-Smooth-Combat/raw/refs/heads/codex/create-combat-automation-module-for-foundry-vtt-xrk64k/manifest.json",
+  "download": "https://github.com/karterellis5-oss/DND-5E-Smooth-Combat/archive/refs/heads/codex/create-combat-automation-module-for-foundry-vtt-xrk64k.zip"
 }
