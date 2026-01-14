@@ -13,5 +13,8 @@
   ],
   "esmodules": [
     "scripts/auto-attack.js"
-  ]
+  ],
+  "url": "https://example.com/smooth-combat",
+  "manifest": "https://example.com/smooth-combat/manifest.json",
+  "download": "https://example.com/smooth-combat/smooth-combat.zip"
 }

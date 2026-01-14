@@ -16,10 +16,12 @@ Smooth Combat automates D&D 5e attack rolls against targeted creature AC and app
 
 ## Installation
 Point Foundry VTT to a raw, direct URL of `manifest.json` when using a manifest URL (for example, a GitHub `raw.githubusercontent.com` link).
+Ensure `manifest.json` has valid `manifest` and `download` URLs that point to hosted files (for example, a GitHub release ZIP), then use the `manifest` URL in Foundry.
 
 ## Troubleshooting
 - If you see “Binary files are not supported” when updating a branch or PR, remove any checked-in archives (like ZIPs) and rewrite the branch history to drop the binary commit before pushing again.
 - If Foundry reports “error parsing module manifest” with `Unexpected token: '<'`, the manifest URL likely points to an HTML page instead of the raw JSON. Use a raw file URL (for example, a GitHub `raw.githubusercontent.com` link) so Foundry receives the JSON content.
+- If Foundry says the module does not provide a download URL, confirm `manifest.json` includes a `download` field that points to a publicly accessible ZIP file.
 
 ## Notes
 - The module uses `dnd5e.rollAttack` to detect attack rolls and relies on `item.rollDamage()` to apply damage.
