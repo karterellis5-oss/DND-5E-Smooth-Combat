@@ -1,4 +1,5 @@
 {
+  "id": "smooth-combat",
   "name": "smooth-combat",
   "title": "Smooth Combat",
   "description": "Automates D&D 5e attack rolls against targeted AC and applies damage on hits.",
